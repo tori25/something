@@ -1,0 +1,158 @@
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color:#FCF3CF;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-bottom: 5%;
+    color: #922B21;
+    background: url("images/lifeimg.jpg") no-repeat top right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    padding: 4%;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    border: 1px solid #fff;
+    font-family: 'Cardo';
+}
+
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255, 165, 210,0.2);
+    background-color: rgba(255, 165, 210,0.2);
+}
+
+footer hr {
+    border-color: #f1f1f1;
+    background-color: #922B21;
+}
+
+.btn-circle {
+    width: 75px;
+    height: 75px;
+    margin-top: 35%;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    -o-transition: background 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
+    color: #FFF;
+    border-radius: 50% !important;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-circle:focus, .btn-circle:hover {
+    color: #000;
+    outline: none;
+    box-shadow: none;
+    background: rgba(255, 165, 210, 0.5);
+}
+
+.fa-angle-double-down {
+    font-size: 55px;
+}
+
+section {
+    font-family: 'Lora';
+}
+
+#life {
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+    border: 3px solid #d3d3d3;
+}
+
+#lifeSection {
+    background-color: #f1f1f1;
+    padding: 4% 3% 4% 3%;
+    margin-bottom: 5%;
+}
+
+#lpvolcano {
+    width: 100%;
+    
+}
+#media{
+width: 80%;
+height: 60%;
+}
+
+#lproses {
+    width: 100%;
+}
+
+#lpvideo {
+    width: 100%;
+    height: auto;
+}
+
+#plasticity, #thelife, #book {
+    margin-bottom: 6%;
+}
+
+
+.film {
+    color: #989898;
+}
+
+.fa-film {
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+footer {
+    font-size: 12px;
+    color: #989898;
+}
+
+
+@media (min-width: 992px) { 
+    header {
+    padding-top: 5%;
+    }
+  
+    .btn-circle {
+     margin-top: 10%;
+    }
+  
+    .title {
+        width: 50%;
+        margin-left: 25%;
+    }   
+  
+    section {
+        line-height: 30px;
+    }
+  
+    .lifeSection-right span {
+        font-size: 40px;
+    }
+    
+    .lifeSection-right footer {
+        font-size: 16px;
+    }  
+  
+    #life {
+        width: 50%;
+        height: auto;
+    }  
+  
+    #lpvideo {
+        height: 110%;
+    }
+}
